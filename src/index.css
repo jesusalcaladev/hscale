@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body {
+    font-family:
+        "Space Grotesk Variable", sans-serif, system-ui, --apple-system;
+}
