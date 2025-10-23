@@ -1,12 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
-import { App } from "./app";
+import { HScale } from "./hscale";
 import { Toaster } from "sonner";
+import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Toaster />
-    <App />
+    <HScale />
   </StrictMode>,
 );
