@@ -1,4 +1,4 @@
-import Colorful from "@uiw/react-color-colorful/src/index.js";
+import { Colorful } from "@uiw/react-color";
 import type { Shade } from "../types/shade";
 import { ExportPalette } from "./export-palette";
 
