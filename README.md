@@ -65,3 +65,4 @@ Serves the production build locally.
 - [react-dom](https://www.npmjs.com/package/react-dom)
 - [sonner](https://www.npmjs.com/package/sonner)
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss)
+- [motion](https://www.npmjs.com/package/motion)
