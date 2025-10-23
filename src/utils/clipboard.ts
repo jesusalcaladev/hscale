@@ -6,7 +6,9 @@ export const copyToClipboard = (value: string, message: string = "Copied!") => {
     .then(() => {
       toast.success(message);
     })
-    .catch((_) => {
-      toast.error("Failed to copy");
+    .catch((error) => {
+      if (error instanceof Error) {
+        toast.error("Failed to copy");
+      }
     });
 };
