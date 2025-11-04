@@ -2,6 +2,8 @@ import type { SVGProps } from "react";
 
 const TailwindCSS = (props: SVGProps<SVGSVGElement>) => (
   <svg {...props} fill="none" viewBox="0 0 54 33">
+    <title>tailwindcss</title>
+
     <g clipPath="url(#tailwindcss__a)">
       <path
         fill="#38bdf8"

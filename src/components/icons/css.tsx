@@ -6,6 +6,8 @@ const CSSNew = (props: SVGProps<SVGSVGElement>) => (
     aria-labelledby="css-logo-title css-logo-description"
     viewBox="0 0 1000 1000"
   >
+    <title>cssnew</title>
+
     <path
       fill="#639"
       d="M0 0h840a160 160 0 0 1 160 160v680a160 160 0 0 1-160 160H160A160 160 0 0 1 0 840V0Z"

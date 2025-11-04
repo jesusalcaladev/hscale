@@ -11,6 +11,8 @@ export const CopyCheck = () => {
       strokeLinecap="round"
       strokeLinejoin="round"
     >
+      <title>copycheck</title>
+
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path stroke="none" d="M0 0h24v24H0z" />
       <path d="M7 9.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />

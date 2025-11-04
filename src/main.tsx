@@ -5,8 +5,8 @@ import { Toaster } from "sonner";
 import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
-  <StrictMode>
-    <Toaster />
-    <HScale />
-  </StrictMode>,
+	<StrictMode>
+		<Toaster />
+		<HScale />
+	</StrictMode>,
 );
