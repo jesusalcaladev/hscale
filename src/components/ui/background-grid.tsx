@@ -13,7 +13,7 @@ export const BackgroundGrid = ({ color = "#cbd5e1" }: { color: string }) => {
 							d="M 40 0 L 0 0 0 40"
 							fill="none"
 							stroke={color}
-							stroke-width="1"
+							strokeWidth="1"
 						/>
 					</pattern>
 				</defs>

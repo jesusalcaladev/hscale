@@ -18,12 +18,7 @@ export const ShadeItem = ({ shade }: { shade: Shade }) => {
 
 	return (
 		<motion.button
-			exit={{ opacity: 0, scale: 0 }}
 			transition={{
-				backgroundColor: {
-					duration: 0.1,
-					ease: "circIn",
-				},
 				scale: {
 					ease: "easeInOut",
 					duration: 0.1,
@@ -35,13 +30,13 @@ export const ShadeItem = ({ shade }: { shade: Shade }) => {
 			whileTap={{
 				scale: 0.95,
 			}}
-			animate={{
-				backgroundColor: shade.hex,
-			}}
 			onMouseEnter={() => setIsHovered(true)}
 			onMouseLeave={() => setIsHovered(false)}
 			onClick={handleCopy}
 			key={shade.hsl}
+			style={{
+				backgroundColor: shade.hex,
+			}}
 			className={`w-[110px] transition-all relative hover:cursor-pointer h-full rounded-xl px-2 py-2 flex flex-col justify-between`}
 		>
 			<AnimatePresence>
