@@ -9,6 +9,22 @@ This is a React project bootstrapped with Vite.
 
 This project is a simple color picker application that allows you to select a color and get its hexadecimal, RGB, and HSL values. It also has a feature to generate a random color and a list of the latest colors selected.
 
+## SEO (optimización para buscadores)
+
+He añadido las meta tags principales, Open Graph, Twitter Cards y datos estructurados (JSON-LD) en `index.html`, además de un `sitemap.xml` y `robots.txt` en `public/`.
+
+- Reemplaza `https://example.com/` en `index.html`, `public/robots.txt` y `public/sitemap.xml` por la URL de producción antes de desplegar.
+- `sitemap.xml` es básico (contiene la raíz). Si tienes rutas adicionales (p.ej. páginas estáticas o rutas generadas), añádelas al sitemap.
+- Para metas dinámicas por ruta considera usar SSR o prerender (Vite + prerendering o un servicio de hosting que soporte prerender).
+- Las imágenes principales (p.ej. `/public/screenshot.jpg`) están referenciadas en las meta tags; asegúrate de usar una URL absoluta accesible en producción.
+
+Si quieres, puedo:
+
+- Generar automáticamente un sitemap con todas las rutas detectadas.
+- Implementar meta dinámicos por ruta (añadiendo SSR/prerender o usando plugins de meta para SPA).
+- Auditar accesibilidad y performance (Lighthouse) para mejorar SEO técnico.
+
+
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps.
